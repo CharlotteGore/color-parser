@@ -16,8 +16,7 @@ module.exports = parse;
  */
 
 function parse(str) {
-  return named(str)
-    || hex3(str)
+  return hex3(str)
     || hex6(str)
     || rgb(str)
     || rgba(str);
