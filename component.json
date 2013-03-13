@@ -1,6 +1,6 @@
 {
   "name": "color-parser",
-  "repo": "component/color-parser",
+  "repo": "charlottegore/color-parser",
   "description": "CSS color string parser",
   "version": "0.1.0",
   "keywords": ["css", "color", "parser", "colors"],
