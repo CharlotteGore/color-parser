@@ -7,7 +7,6 @@
   "dependencies": {},
   "development": {},
   "scripts": [
-    "index.js",
-    "colors.js"
+    "index.js"
   ]
 }
