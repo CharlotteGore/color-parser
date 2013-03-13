@@ -1,10 +1,6 @@
-
 /**
  * Module dependencies.
  */
-
-var colors = require('./colors');
-
 /**
  * Expose `parse`.
  */
@@ -25,24 +21,6 @@ function parse(str) {
     || hex6(str)
     || rgb(str)
     || rgba(str);
-}
-
-/**
- * Parse named css color `str`.
- *
- * @param {String} str
- * @return {Object}
- * @api private
- */
-
-function named(str) {
-  var c = colors[str.toLowerCase()];
-  if (!c) return;
-  return {
-    r: c[0],
-    g: c[1],
-    b: c[2]
-  }
 }
 
 /**
