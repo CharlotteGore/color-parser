@@ -2,7 +2,7 @@
   "name": "color-parser",
   "repo": "charlottegore/color-parser",
   "description": "CSS color string parser",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "keywords": ["css", "color", "parser", "colors"],
   "dependencies": {},
   "development": {},

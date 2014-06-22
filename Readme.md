@@ -1,11 +1,29 @@
 
 # color-parser
 
-  CSS color string parser
+  CSS color string parser, forked from component/color-parser
 
 ## Installation
 
-    $ component install component/color-parser
+Browserify/NPM
+
+```sh
+    $ npm install --save gm-color-parser
+```
+
+```js
+  var parse = require('gm-color-parser');
+```
+
+Component
+
+```sh
+    $ component install charlottegore/color-parser
+```
+
+```js
+  var parse = require('color-parser');
+```
 
 ### Example
 
